@@ -1,0 +1,145 @@
+// eliminate animations
+// * {
+//   transition: none !important;
+//   animation: none !important;
+// }
+
+// atom-text-editor {
+//   -webkit-font-feature-settings: "liga" off, "calt" off;
+// }
+
+// make indent guide less vivid (only necessary for certain themes)
+// atom-text-editor.editor .indent-guide {
+// 	color: darken(#333, 2%);
+// }
+
+// make comments less vivid (only necessary for certain themes)
+// also remove itallics (some letters hard to distinguish when itallic)
+.syntax--comment {
+	// color: darken(#969896, 20%);
+	font-style: normal;
+}
+
+// highlight current line number for An Old Hope theme
+// atom-text-editor .gutter .line-number.cursor-line {
+// 	color: #e5cd52;
+// }
+
+// update color of folders in file directory for An Old Hope theme
+// .header > .icon-file-directory:before {
+// 	color: #4fb4d8;
+// }
+
+// make bookmarks more visible
+atom-text-editor .gutter .line-number.bookmarked .icon-right:before {
+  color: #4fb4d8;
+}
+atom-text-editor .line-number.bookmarked,
+atom-text-editor .line-number .icon-right {
+	opacity: 1;
+}
+
+// atom-text-editor .cursor {
+//   color: lighten(#B54200, 20%);
+// }
+
+// force An Old Hope theme to make Less variables red (instead of white)
+// atom-text-editor .syntax--variable.syntax--other.syntax--less {
+// 	color: #eb3d54;
+// }
+
+// make close icons suitable for An Old Hope
+// .tab-bar .tab .close-icon:hover {
+// 	background-color: #4fb4d8;
+// }
+// .syntax--meta .syntax--entity.syntax--name.syntax--tags {
+// 	color: white;
+// }
+
+// make active tree-view more obvious
+.tree-view::before {
+	width: 4px;
+}
+
+// set border-bottom of active tab (files, settings, about page)
+.texteditor.tab.active,
+.tab.active[data-type="SettingsView"],
+.tab.active[data-type="AboutView"] {
+  border-bottom: 3px solid #928374;
+}
+
+/******************  VIM MODE STATUS BAR ******************/
+
+// green
+@normal-bg: rgb(105, 238, 103);
+// blue
+@insert-bg: rgb(7, 193, 242);
+// yellowish
+@visual-bg: rgb(255, 206, 98);
+
+// change the current cursor-line background color
+atom-text-editor.is-focused.editor {
+  // .cursor-line {
+  //   background: fadeout(@normal-bg, 90%);
+  // }
+  // &.insert-mode {
+  //   .cursor-line {
+  //     background: fadeout(@insert-bg, 90%);
+  //   }
+  // }
+  &.visual-mode {
+    .cursor-line {
+      background: fadeout(@visual-bg, 90%);
+    }
+  }
+}
+
+// vim mode in the status bar at the bottom
+// make it nice and big so you can see it out of the corner of your eye
+.status-bar-vim-mode-plus-normal,
+.status-bar-vim-mode-plus-insert,
+.status-bar-vim-mode-plus-visual {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  width: 19rem;
+  text-transform: capitalize;
+}
+
+.status-bar-vim-mode-plus-normal {
+  background: @normal-bg;
+  color: rgb(4, 111, 11);
+}
+
+.status-bar-vim-mode-plus-insert {
+  background: @insert-bg;
+  color: white;
+}
+
+.status-bar-vim-mode-plus-visual {
+  background: @visual-bg;
+  color: rgb(168, 117, 5);
+}
+
+// change cursor color in normal mode
+atom-text-editor.vim-mode-plus.normal-mode.is-focused.editor {
+  .cursor {
+    background-color: @visual-bg;
+		opacity: .7;
+  }
+}
+
+// change cursor color in visual mode
+atom-text-editor.vim-mode-plus.visual-mode.is-focused.editor {
+  .cursor {
+    background-color: @visual-bg;
+		opacity: .7;
+  }
+}
+
+// visual mode and selected text
+atom-text-editor.editor .selection .region {
+  background-color: fadeout(@visual-bg, 85%);
+}
+
+/****************** END VIM MODE STATUS BAR ******************/

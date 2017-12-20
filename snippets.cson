@@ -1,0 +1,28 @@
+# CSS, LESS, Sass
+'.source.css, .source.css.sass, .source.css.less':
+	'mediaQuery':
+		'prefix': '@media'
+		'body': '@media (${1:max}-width: @width${2:Mobile}) {\n\t${3}\n}${4}'
+	'tabletMediaQuery':
+		'prefix': 'tablet'
+		'body': '@media only screen\n\tand (min-device-width : 768px)\n\tand (max-device-width : 1024px)\n\tand (orientation : ${1:portrait}) {\n\t\t${2}\n}'
+
+
+# PHP
+'.text.php':
+  'closing curly brace':
+    'prefix': '}}'
+    'body': '<?php } ?>'
+
+
+# CSS, LESS, Sass, PHP, JavaScript
+'.source.css, .source.css.sass, .source.css.less, .text.php, .source.js':
+	'start comment banner':
+		'prefix': 'start---'
+		'body': '// --------------------------------------------------\n// '
+	'end comment banner':
+		'prefix': 'end---'
+		'body': '// END ${1}\n// --------------------------------------------------'
+	'both comment banners':
+		'prefix': 'both---'
+		'body': '// --------------------------------------------------\n// ${1}\n${2}\n// END ${1}\n// --------------------------------------------------'

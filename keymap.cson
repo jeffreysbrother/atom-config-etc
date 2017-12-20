@@ -1,0 +1,51 @@
+# These two rules allow "jk" to be used to exit insert mode
+# However, this causes a significant delay when typing only j, when making selections, etc.
+# 'atom-text-editor.vim-mode-plus:not(.normal-mode)':
+#   'j k': 'vim-mode-plus:activate-normal-mode'
+# 'atom-text-editor[mini]':
+#   'j k': 'core:cancel'
+#
+
+'atom-text-editor.vim-mode-plus':
+	'ctrl-cmd-up': 'unset!'
+	'ctrl-cmd-down': 'unset!'
+	'ctrl-k': 'editor:move-line-up'
+	'ctrl-j': 'editor:move-line-down'
+
+
+'atom-text-editor:not([mini])':
+	# disable arrow keys ... still able to move blocks of code ... and use arrows in search fields
+	# with ctrl + cmd + up/down
+	'left': "core:nop"
+	'right': "core:nop"
+	'up': "core:nop"
+	'down': "core:nop"
+
+
+'atom-text-editor:not(.normal-mode)':
+	# this allows me to use ctrl-e for emmet ... and tab for my custom snippets
+	'ctrl-e': 'emmet:expand-abbreviation-with-tab'
+
+
+# make CTRL+TAB and CTRL+SHIFT+TAB more intuitive (for selecting tabs)
+'body':
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+  'ctrl-shift-tab ^ctrl': 'unset!'
+
+
+# set keystroke for bookmarks
+'atom-text-editor':
+  'ctrl-alt-b': 'bookmarks:toggle-bookmark'
+
+
+# backspace only active in insert mode
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+	'backspace': 'core:nop'
+	'space': 'core:nop'
+
+
+# wait, what does this do? LOL.
+# '.pane .editor:not(.mini)':
+#   'tab': 'snippets:expand'

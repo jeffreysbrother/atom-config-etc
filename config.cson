@@ -1,0 +1,98 @@
+"*":
+  Zen:
+    gutter: true
+    tabs: "multiple"
+  "atom-beautify":
+    js:
+      space_after_anon_function: true
+  "atom-clock":
+    dateFormat: "h:mm a"
+    showTooltip: true
+  "autocomplete-plus":
+    autoActivationDelay: 100
+    confirmCompletion: "enter"
+    strictMatching: true
+    useCoreMovementCommands: false
+  "bracket-matcher": {}
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "busy-signal"
+      "intentions"
+      "linter"
+      "linter-eslint"
+      "linter-less"
+      "linter-ui-default"
+      "wrap-guide"
+      "language-todo"
+      "language-javascript-jsx"
+      "language-vue"
+      "atom-beautify"
+      "background-tips"
+      "language-csharp"
+      "language-java"
+      "language-objective-c"
+      "language-perl"
+      "welcome"
+    ]
+    excludeVcsIgnoredPaths: false
+    projectHome: "/Users/jamescool"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "gruvbox"
+    ]
+  "duotone-dark-syntax":
+    color:
+      duo: "#227d27"
+      uno: "#1c91dd"
+  editor:
+    fontFamily: "Consolas"
+    fontSize: 15
+    invisibles: {}
+    lineHeight: 1.6
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    tabType: "hard"
+  emmet: {}
+  "exception-reporting":
+    userId: "db9809b3-54fc-4faf-84b6-804b57b6d5af"
+  "file-icons": {}
+  "file-types":
+    ".zshrc": "source.python"
+  fonts:
+    fontFamily: "SK Modernist"
+  "goto-definition":
+    performanceMode: true
+  "gruvbox-plus-syntax":
+    contrast: "Soft"
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+  "linter-less":
+    ieCompatibilityChecks: false
+  "linter-ui-default":
+    panelHeight: 69
+  "merge-conflicts":
+    gitPath: "/usr/local/bin/git"
+  "one-dark-ui":
+    hideDockButtons: true
+  "pinned-tabs":
+    closeUnpinned: true
+  "status-bar": {}
+  tabs:
+    enableVcsColoring: true
+  "vim-mode-plus":
+    hideStatusBarOnMaximizePane: false
+    hideTabBarOnMaximizePane: false
+    smoothScrollOnFullScrollMotion: true
+    smoothScrollOnFullScrollMotionDuration: 200
+    smoothScrollOnHalfScrollMotion: true
+    smoothScrollOnHalfScrollMotionDuration: 200
+    statusBarModeStringStyle: "long"
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "

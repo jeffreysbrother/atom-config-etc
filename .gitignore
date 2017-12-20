@@ -1,0 +1,10 @@
+.apm
+.node-gyp
+blob-store
+compile-cache
+packages
+recovery
+storage
+.package-cop.json
+github.cson
+terminal-commands.json
