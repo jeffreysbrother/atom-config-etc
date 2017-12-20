@@ -83,8 +83,16 @@
   tabs:
     enableVcsColoring: true
   "vim-mode-plus":
+    automaticallyEscapeInsertModeOnActivePaneItemChange: true
+    clearMultipleCursorsOnEscapeInsertMode: true
     hideStatusBarOnMaximizePane: false
     hideTabBarOnMaximizePane: false
+    incrementalSearch: false
+    keymapPToPutWithAutoIndent: true
+    keymapSemicolonToInnerAnyPairInOperatorPendingMode: true
+    keymapSemicolonToInnerAnyPairInVisualMode: true
+    keymapYToYankToLastCharacterOfLine: true
+    showHoverSearchCounter: true
     smoothScrollOnFullScrollMotion: true
     smoothScrollOnFullScrollMotionDuration: 200
     smoothScrollOnHalfScrollMotion: true
