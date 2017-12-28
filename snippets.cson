@@ -26,3 +26,12 @@
 	'both comment banners':
 		'prefix': 'both---'
 		'body': '// --------------------------------------------------\n// ${1}\n${2}\n// END ${1}\n// --------------------------------------------------'
+
+# JavaScript
+'.source.js':
+	'fetch API':
+		'prefix': 'fetch'
+		'body': 'fetch(url).then(res => {\n\tif (!res.ok) {\n\t\tthrow Error(res.status);\n\t}\n\treturn res.json();\n}).then(data => {\n\t// stuff\n}).catch(error => {\n\tconsole.log(error);\n});'
+	'jQuery ajax':
+		'prefix': 'ajax'
+		'body': '$.ajax({\n\turl: ${1:variable},\n\tcontentType: \'application/json\',\n\tdata: JSON.stringify({event: \'behavior:push_notification:\' + currentPermission}),type: \'POST\',\n\tprocessData: false,\n\ttimeout: 2000\n});'

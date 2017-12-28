@@ -4,7 +4,7 @@
 #   'j k': 'vim-mode-plus:activate-normal-mode'
 # 'atom-text-editor[mini]':
 #   'j k': 'core:cancel'
-#
+
 
 'atom-text-editor.vim-mode-plus':
 	'ctrl-cmd-up': 'unset!'
@@ -13,8 +13,8 @@
 	'ctrl-j': 'editor:move-line-down'
 
 
-'atom-text-editor:not([mini])':
-	# disable arrow keys ... still able to move blocks of code ... and use arrows in search fields
+'atom-text-editor.vim-mode-plus:not([mini])':
+	# disable arrow keys in vim mode ... still able to move blocks of code ... and use arrows in search fields
 	# with ctrl + cmd + up/down
 	'left': "core:nop"
 	'right': "core:nop"

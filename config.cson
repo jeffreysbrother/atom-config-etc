@@ -34,6 +34,8 @@
       "language-objective-c"
       "language-perl"
       "welcome"
+      "vim-mode-plus"
+      "vim-mode-plus-keymaps-for-surround"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
