@@ -16,7 +16,7 @@
 
 
 # CSS, LESS, Sass, PHP, JavaScript
-'.source.css, .source.css.sass, .source.css.less, .text.php, .source.js':
+'.source.css, .source.css.sass, .source.css.less, .text.php, .text.html.basic, .source.js':
 	'start comment banner':
 		'prefix': 'start---'
 		'body': '// --------------------------------------------------\n// '
