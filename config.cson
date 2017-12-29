@@ -17,12 +17,6 @@
   core:
     closeDeletedFileTabs: true
     disabledPackages: [
-      "busy-signal"
-      "intentions"
-      "linter"
-      "linter-eslint"
-      "linter-less"
-      "linter-ui-default"
       "wrap-guide"
       "language-todo"
       "language-javascript-jsx"
@@ -34,8 +28,6 @@
       "language-objective-c"
       "language-perl"
       "welcome"
-      "vim-mode-plus"
-      "vim-mode-plus-keymaps-for-surround"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
