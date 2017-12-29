@@ -1,7 +1,7 @@
 # CSS, LESS, Sass
 '.source.css, .source.css.sass, .source.css.less':
 	'mediaQuery':
-		'prefix': '@media'
+		'prefix': 'media'
 		'body': '@media (${1:max}-width: @width${2:Mobile}) {\n\t${3}\n}${4}'
 	'tabletMediaQuery':
 		'prefix': 'tablet'
