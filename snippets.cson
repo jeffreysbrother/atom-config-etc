@@ -15,7 +15,7 @@
     'body': '<?php } ?>'
 
 
-# CSS, LESS, Sass, PHP, JavaScript
+# CSS, LESS, Sass, JavaScript
 '.source.css, .source.css.sass, .source.css.less, .source.js':
 	'start comment banner':
 		'prefix': 'start---'
@@ -36,3 +36,9 @@
 	'jQuery ajax':
 		'prefix': 'ajax'
 		'body': '$.ajax({\n\turl: ${1:variable},\n\tcontentType: \'application/json\',\n\tdata: JSON.stringify({event: \'behavior:push_notification:\' + currentPermission}),\n\ttype: \'POST\',\n\tprocessData: false,\n\ttimeout: 2000\n});'
+
+# PHP and HTML
+'.text.php, text.html.basic':
+	'viewport':
+		'prefix': 'viewport'
+		'body': '<meta name="viewport" content="width=device-width, initial-scale=1">'
