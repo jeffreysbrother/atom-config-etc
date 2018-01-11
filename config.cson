@@ -28,6 +28,8 @@
       "language-objective-c"
       "language-perl"
       "welcome"
+      "vim-mode-plus"
+      "vim-mode-plus-keymaps-for-surround"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
@@ -36,6 +38,7 @@
       "one-dark-ui"
       "gruvbox"
     ]
+    titleBar: "custom"
   "duotone-dark-syntax":
     color:
       duo: "#227d27"
