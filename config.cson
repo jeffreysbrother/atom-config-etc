@@ -30,6 +30,7 @@
       "welcome"
       "vim-mode-plus"
       "vim-mode-plus-keymaps-for-surround"
+      "language-gfm"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
