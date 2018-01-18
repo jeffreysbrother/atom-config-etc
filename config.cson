@@ -34,10 +34,6 @@
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
     telemetryConsent: "no"
-    themes: [
-      "one-dark-ui"
-      "nord-atom-syntax"
-    ]
     titleBar: "custom"
   "duotone-dark-syntax":
     color:
