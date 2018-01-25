@@ -38,3 +38,10 @@
 'atom-text-editor:not([mini])':
   'tab': 'snippets:next-tab-stop'
 	'ctrl-e': 'emmet:expand-abbreviation-with-tab'
+
+# 'atom-text-editor[data-grammar~="css"]:not([mini]),
+# atom-text-editor[data-grammar~="less"]:not([mini]),
+# atom-text-editor[data-grammar~="js"]:not([mini]),
+# atom-text-editor[data-grammar~="sass"]:not([mini])':
+# 	'tab': 'snippets:next-tab-stop'
+# 	'ctrl-e': 'emmet:expand-abbreviation-with-tab'

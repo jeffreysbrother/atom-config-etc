@@ -14,7 +14,7 @@
     strictMatching: true
     useCoreMovementCommands: false
   "base16-syntax":
-    scheme: "Flat"
+    scheme: "Tomorrow"
   "bracket-matcher": {}
   core:
     closeDeletedFileTabs: true
@@ -32,13 +32,26 @@
       "welcome"
       "language-gfm"
       "emmet-simplified"
+      "file-icons"
+      "autocomplete-css"
+      "autocomplete-html"
+      "autocomplete-snippets"
+      "autoflow"
+      "language-clojure"
+      "language-go"
+      "language-make"
+      "language-mustache"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-toml"
+      "language-typescript"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "nord-atom-syntax"
+      "base16-tomorrow-dark-theme"
     ]
     titleBar: "custom"
   "duotone-dark-syntax":
@@ -80,6 +93,8 @@
     hideDockButtons: true
   "pinned-tabs":
     closeUnpinned: true
+  "relative-numbers":
+    softWrapsCount: false
   "status-bar": {}
   tabs:
     enableVcsColoring: true
