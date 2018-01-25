@@ -5,13 +5,11 @@
 # 'atom-text-editor[mini]':
 #   'j k': 'core:cancel'
 
-
 'atom-text-editor.vim-mode-plus':
 	'ctrl-cmd-up': 'unset!'
 	'ctrl-cmd-down': 'unset!'
 	'ctrl-k': 'editor:move-line-up'
 	'ctrl-j': 'editor:move-line-down'
-
 
 'atom-text-editor.vim-mode-plus:not([mini])':
 	# disable arrow keys in vim mode ... still able to move blocks of code ... and use arrows in search fields
@@ -21,10 +19,10 @@
 	'up': "core:nop"
 	'down': "core:nop"
 
-
-'atom-text-editor:not(.normal-mode)':
-	# this allows me to use ctrl-e for emmet ... and tab for my custom snippets
-	'ctrl-e': 'emmet:expand-abbreviation-with-tab'
+# backspace only active in insert mode when vim mode is enabled
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+	'backspace': 'core:nop'
+	'space': 'core:nop'
 
 
 # make CTRL+TAB and CTRL+SHIFT+TAB more intuitive (for selecting tabs)
@@ -35,17 +33,8 @@
   'ctrl-shift-tab ^ctrl': 'unset!'
 
 
-# set keystroke for bookmarks
-'atom-text-editor':
-  'ctrl-alt-b': 'bookmarks:toggle-bookmark'
-
-
-# backspace only active in insert mode
-'atom-text-editor.vim-mode-plus:not(.insert-mode)':
-	'backspace': 'core:nop'
-	'space': 'core:nop'
-
-
-# wait, what does this do? LOL.
-# '.pane .editor:not(.mini)':
-#   'tab': 'snippets:expand'
+# ensure that "tab" is used for custom snippets and tab stops
+# ... and that ctrl-e is used for emmet expansions
+'atom-text-editor:not([mini])':
+  'tab': 'snippets:next-tab-stop'
+	'ctrl-e': 'emmet:expand-abbreviation-with-tab'
