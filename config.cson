@@ -14,7 +14,7 @@
     strictMatching: true
     useCoreMovementCommands: false
   "base16-syntax":
-    scheme: "Atelier Dune"
+    scheme: "Flat"
   "bracket-matcher": {}
   core:
     closeDeletedFileTabs: true
@@ -31,16 +31,14 @@
       "language-perl"
       "welcome"
       "language-gfm"
-      "vim-mode-plus-keymaps-for-surround"
       "emmet-simplified"
-      "vim-mode-plus"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "gaia-dark-syntax"
+      "nord-atom-syntax"
     ]
     titleBar: "custom"
   "duotone-dark-syntax":
@@ -76,6 +74,8 @@
     panelHeight: 69
   "merge-conflicts":
     gitPath: "/usr/local/bin/git"
+  "nord-atom-syntax":
+    accessibility: {}
   "one-dark-ui":
     hideDockButtons: true
   "pinned-tabs":
