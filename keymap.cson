@@ -38,3 +38,8 @@
 'atom-text-editor:not([mini])':
   'tab': 'snippets:next-tab-stop'
 	'ctrl-e': 'emmet:expand-abbreviation-with-tab'
+
+
+# toggle treeview with f3
+'.platform-darwin atom-text-editor:not([mini])':
+	'f3': 'tree-view:toggle'

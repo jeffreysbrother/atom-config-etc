@@ -48,6 +48,8 @@
       "vim-mode-plus"
       "vim-mode-plus-keymaps-for-surround"
       "relative-numbers"
+      "github"
+      "open-on-github"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
