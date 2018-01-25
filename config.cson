@@ -45,6 +45,9 @@
       "language-ruby-on-rails"
       "language-toml"
       "language-typescript"
+      "vim-mode-plus"
+      "vim-mode-plus-keymaps-for-surround"
+      "relative-numbers"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
