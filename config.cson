@@ -61,8 +61,8 @@
     titleBar: "custom"
   "duotone-dark-syntax":
     color:
-      duo: "#227d27"
-      uno: "#1c91dd"
+      duo: "#5a7d14"
+      uno: "#8c4f69"
   editor:
     fontFamily: "Consolas"
     fontSize: 15
