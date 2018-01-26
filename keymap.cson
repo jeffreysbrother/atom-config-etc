@@ -40,7 +40,7 @@
 
 
 # toggle bookmarks
-'atom-text-editor:not(.insert-mode)':
+'atom-text-editor:not(.insert-mode):not([mini])':
 	'm n': 'bookmarks:jump-to-next-bookmark'
 	'm m': 'bookmarks:toggle-bookmark'
 
