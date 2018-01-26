@@ -2,7 +2,7 @@
 '.source.css, .source.css.sass, .source.css.less':
 	'mediaQuery':
 		'prefix': '@media'
-		'body': '@media (${1:max}-width: @width${2:Mobile}) {\n\t${3}\n}${4}'
+		'body': '@media (${1:max}-width: @width${2:Mobile}) {\n\t${3}\n}'
 	'tabletMediaQuery':
 		'prefix': '@tablet'
 		'body': '@media only screen\n\tand (min-device-width : 768px)\n\tand (max-device-width : 1024px)\n\tand (orientation : ${1:portrait}) {\n\t\t${2}\n}'

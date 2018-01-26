@@ -31,11 +31,8 @@
       "language-perl"
       "welcome"
       "language-gfm"
-      "emmet-simplified"
-      "file-icons"
       "autocomplete-css"
       "autocomplete-html"
-      "autocomplete-snippets"
       "autoflow"
       "language-clojure"
       "language-go"
@@ -45,11 +42,9 @@
       "language-ruby-on-rails"
       "language-toml"
       "language-typescript"
-      "vim-mode-plus"
-      "vim-mode-plus-keymaps-for-surround"
-      "relative-numbers"
       "github"
       "open-on-github"
+      "autocomplete-snippets"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
@@ -65,7 +60,6 @@
       uno: "#8c4f69"
   editor:
     fontFamily: "Consolas"
-    fontSize: 15
     invisibles: {}
     lineHeight: 1.6
     scrollPastEnd: true

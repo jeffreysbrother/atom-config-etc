@@ -1,9 +1,9 @@
 # These two rules allow "jk" to be used to exit insert mode
 # However, this causes a significant delay when typing only j, when making selections, etc.
-# 'atom-text-editor.vim-mode-plus:not(.normal-mode)':
-#   'j k': 'vim-mode-plus:activate-normal-mode'
-# 'atom-text-editor[mini]':
-#   'j k': 'core:cancel'
+'atom-text-editor.vim-mode-plus:not(.normal-mode):not(.visual-mode)':
+  'j k': 'vim-mode-plus:activate-normal-mode'
+'atom-text-editor[mini].vim-mode-plus':
+  'j k': 'core:cancel'
 
 'atom-text-editor.vim-mode-plus':
 	'ctrl-cmd-up': 'unset!'
@@ -38,6 +38,12 @@
 'atom-text-editor:not([mini])':
   'tab': 'snippets:next-tab-stop'
 	'ctrl-e': 'emmet:expand-abbreviation-with-tab'
+
+
+# toggle bookmarks
+'atom-text-editor:not(.insert-mode)':
+	'm n': 'bookmarks:jump-to-next-bookmark'
+	'm m': 'bookmarks:toggle-bookmark'
 
 
 # toggle treeview with f3
