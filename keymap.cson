@@ -1,19 +1,18 @@
 # These two rules allow "jk" to be used to exit insert mode
-# However, this causes a significant delay when typing only j, when making selections, etc.
 'atom-text-editor.vim-mode-plus:not(.normal-mode):not(.visual-mode)':
   'j k': 'vim-mode-plus:activate-normal-mode'
 'atom-text-editor[mini].vim-mode-plus':
   'j k': 'core:cancel'
 
+# move selection up/down with j/k
 'atom-text-editor.vim-mode-plus':
 	'ctrl-cmd-up': 'unset!'
 	'ctrl-cmd-down': 'unset!'
 	'ctrl-k': 'editor:move-line-up'
 	'ctrl-j': 'editor:move-line-down'
 
+# disable arrow keys in vim mode ... still able to  use arrows in search fields
 'atom-text-editor.vim-mode-plus:not([mini])':
-	# disable arrow keys in vim mode ... still able to move blocks of code ... and use arrows in search fields
-	# with ctrl + cmd + up/down
 	'left': "core:nop"
 	'right': "core:nop"
 	'up': "core:nop"
@@ -49,3 +48,11 @@
 # toggle treeview with f3
 '.platform-darwin atom-text-editor:not([mini])':
 	'f3': 'tree-view:toggle'
+
+
+# allow "o" to open treeview item ... and tab to toggle treeview focus
+'.tree-view':
+	'o': 'tree-view:expand-item'
+	'tab': 'tree-view:toggle-focus'
+'.platform-darwin atom-text-editor:not(.insert-mode)':
+	'tab': 'tree-view:toggle-focus'

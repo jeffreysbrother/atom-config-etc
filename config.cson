@@ -92,6 +92,8 @@
     hideDockButtons: true
   "pinned-tabs":
     closeUnpinned: true
+  "platformio-ide-terminal":
+    style: {}
   "relative-numbers":
     softWrapsCount: false
   "status-bar": {}
