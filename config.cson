@@ -104,7 +104,6 @@
     clearMultipleCursorsOnEscapeInsertMode: true
     hideStatusBarOnMaximizePane: false
     hideTabBarOnMaximizePane: false
-    incrementalSearch: false
     keymapPToPutWithAutoIndent: true
     keymapSemicolonToInnerAnyPairInOperatorPendingMode: true
     keymapSemicolonToInnerAnyPairInVisualMode: true

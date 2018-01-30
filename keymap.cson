@@ -40,7 +40,7 @@
 
 
 # toggle bookmarks
-'atom-text-editor:not(.insert-mode):not([mini])':
+'atom-text-editor.vim-mode-plus.normal-mode:not([mini])':
 	'm n': 'bookmarks:jump-to-next-bookmark'
 	'm m': 'bookmarks:toggle-bookmark'
 
@@ -54,5 +54,5 @@
 '.tree-view':
 	'o': 'tree-view:expand-item'
 	'tab': 'tree-view:toggle-focus'
-'.platform-darwin atom-text-editor:not(.insert-mode)':
+'.platform-darwin atom-text-editor.vim-mode-plus:not(.insert-mode)':
 	'tab': 'tree-view:toggle-focus'
