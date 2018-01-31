@@ -9,10 +9,19 @@
 
 
 # PHP
-'.text.php':
-  'closing curly brace':
-    'prefix': 'close'
-    'body': '<?php } ?>'
+'.text.php, text.html.php':
+	'self search':
+		'prefix': 'self'
+		'body': '<?php if ($searchType == \'self\') { ?>'
+	'not self search':
+		'prefix': 'notself'
+		'body': '<?php if ($searchType != \'self\') { ?>'
+	'closing curly brace':
+		'prefix': 'close'
+		'body': '<?php } ?>'
+	'ternary':
+		'prefix': 'tern'
+		'body': '<?php echo ($searchType == \'self\') ? ${1} : ${2}; ?>'
 
 
 # CSS, LESS, Sass, JavaScript
