@@ -1,0 +1,14 @@
+[
+  {
+    title: "Site Configs"
+    paths: [
+      "/Users/jamescool/vagrants/public-records/sites/public-records-site-configs"
+    ]
+  }
+  {
+    title: "TruthFinder Funnel"
+    paths: [
+      "/Users/jamescool/vagrants/public-records/sites/public-records-app/public/truthfinder.com/funnel"
+    ]
+  }
+]
