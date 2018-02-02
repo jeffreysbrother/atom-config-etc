@@ -101,7 +101,6 @@
     enableVcsColoring: true
   "vim-mode-plus":
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
-    clearMultipleCursorsOnEscapeInsertMode: true
     hideStatusBarOnMaximizePane: false
     hideTabBarOnMaximizePane: false
     keymapPToPutWithAutoIndent: true
