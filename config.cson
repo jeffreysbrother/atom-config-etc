@@ -1,7 +1,9 @@
 "*":
   Zen:
     gutter: true
+    minimap: true
     tabs: "multiple"
+    width: 160
   "atom-beautify":
     js:
       space_after_anon_function: true
@@ -87,7 +89,8 @@
   "merge-conflicts":
     gitPath: "/usr/local/bin/git"
   "nord-atom-syntax":
-    accessibility: {}
+    accessibility:
+      commentContrast: 10
   "one-dark-ui":
     hideDockButtons: true
   "pinned-tabs":
@@ -99,6 +102,7 @@
   "status-bar": {}
   tabs:
     enableVcsColoring: true
+  "tree-view": {}
   "vim-mode-plus":
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
     hideStatusBarOnMaximizePane: false

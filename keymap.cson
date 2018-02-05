@@ -50,9 +50,10 @@
 	'f3': 'tree-view:toggle'
 
 
-# allow "o" to open treeview item ... and tab to toggle treeview focus
+# allow "o" to open treeview item
+# and tab to toggle treeview focus (this has been disabled because it conflicts with tabbing functionality)
 '.tree-view':
 	'o': 'tree-view:expand-item'
-	'tab': 'tree-view:toggle-focus'
-'.platform-darwin atom-text-editor.vim-mode-plus:not(.insert-mode)':
-	'tab': 'tree-view:toggle-focus'
+	# 'tab': 'tree-view:toggle-focus'
+# '.platform-darwin atom-text-editor.vim-mode-plus:not(.insert-mode)':
+	# 'tab': 'tree-view:toggle-focus'
