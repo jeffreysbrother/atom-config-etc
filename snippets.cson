@@ -6,6 +6,9 @@
 	'tabletMediaQuery':
 		'prefix': '@tablet'
 		'body': '@media only screen\n\tand (min-device-width : 768px)\n\tand (max-device-width : 1024px)\n\tand (orientation : ${1:portrait}) {\n\t\t${2}\n}'
+	'background image':
+		'prefix': 'background'
+		'body': 'background: url(\'@{assets}/themes/dorado/img/${1:dir}/${2:filename}.${3:extension}\') no-repeat;'
 
 
 # PHP

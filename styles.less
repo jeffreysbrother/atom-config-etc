@@ -4,9 +4,14 @@
 //   animation: none !important;
 // }
 
-// atom-text-editor {
-//   -webkit-font-feature-settings: "liga" off, "calt" off;
-// }
+atom-text-editor {
+  text-rendering: optimizeLegibility;
+}
+
+atom-text-editor.editor .syntax--string.syntax--quoted,
+atom-text-editor.editor .syntax--string.syntax--regexp {
+  -webkit-font-feature-settings: "liga" off, "calt" off;
+}
 
 // make indent guide less vivid (only necessary for certain themes)
 atom-text-editor .indent-guide,
