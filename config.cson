@@ -47,6 +47,14 @@
       "github"
       "open-on-github"
       "autocomplete-snippets"
+      "archive-view"
+      "autosave"
+      "dev-live-reload"
+      "language-c"
+      "language-hyperlink"
+      "language-python"
+      "language-sass"
+      "metrics"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
