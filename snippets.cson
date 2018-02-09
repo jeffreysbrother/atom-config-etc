@@ -8,7 +8,7 @@
 		'body': '@media only screen\n\tand (min-device-width : 768px)\n\tand (max-device-width : 1024px)\n\tand (orientation : ${1:portrait}) {\n\t\t${2}\n}'
 	'background image':
 		'prefix': 'background'
-		'body': 'background: url(\'@{assets}/themes/dorado/img/${1:dir}/${2:filename}.${3:extension}\') no-repeat;'
+		'body': 'background: url(\'@{assets}/${1:themes}/${2:dorado}/${3:img}/${4:dir}/${5:filename}.${6:jpg}\') no-repeat;'
 
 
 # PHP
@@ -25,6 +25,9 @@
 	'ternary':
 		'prefix': 'tern'
 		'body': '<?php echo (${1:$searchType == \'self\'}) ? ${2} : ${3}; ?>'
+	'assets directory':
+		'prefix': 'assets'
+		'body': '<?php echo $assetsDir; ?>/${1:themes}/${2:dorado}/${3:img}/${4:dir}/${5:filename}.${6:jpg}'
 
 
 # CSS, LESS, Sass, JavaScript
