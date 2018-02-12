@@ -19,6 +19,7 @@
     scheme: "Tomorrow"
   "bracket-matcher": {}
   core:
+    automaticallyUpdate: false
     closeDeletedFileTabs: true
     disabledPackages: [
       "wrap-guide"
@@ -55,6 +56,15 @@
       "language-python"
       "language-sass"
       "metrics"
+      "package-generator"
+      "styleguide"
+      "update-package-dependencies"
+      "about"
+      "deprecation-cop"
+      "encoding-selector"
+      "exception-reporting"
+      "go-to-line"
+      "dalek"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
@@ -109,6 +119,7 @@
     softWrapsCount: false
   "status-bar": {}
   tabs:
+    addNewTabsAtEnd: true
     enableVcsColoring: true
   "tree-view": {}
   "vim-mode-plus":
