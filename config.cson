@@ -117,6 +117,16 @@
     style: {}
   "relative-numbers":
     softWrapsCount: false
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.md"
+      "unordered.list.markup.md"
+    ]
   "status-bar": {}
   tabs:
     addNewTabsAtEnd: true
