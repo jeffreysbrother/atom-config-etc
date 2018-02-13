@@ -115,6 +115,7 @@
     closeUnpinned: true
   "platformio-ide-terminal":
     style: {}
+  "project-manager": {}
   "relative-numbers":
     softWrapsCount: false
   "spell-check":
@@ -130,6 +131,7 @@
   "status-bar": {}
   tabs:
     addNewTabsAtEnd: true
+    displayMruTabList: false
     enableVcsColoring: true
   "tree-view": {}
   "vim-mode-plus":
