@@ -57,3 +57,10 @@
 	'viewport':
 		'prefix': 'viewport'
 		'body': '<meta name="viewport" content="width=device-width, initial-scale=1">'
+
+
+# Markdown
+'.text.md':
+	'link tag':
+		'prefix': 'a'
+		'body': '<a href="${1:url}" target="_blank">${2:text}</a>'
