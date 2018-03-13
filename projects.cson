@@ -11,4 +11,16 @@
       "/Users/jamescool/vagrants/public-records/sites/public-records-app/public/truthfinder.com/funnel"
     ]
   }
+  {
+    title: "InstantCheckmate Funnel"
+    paths: [
+      "/Users/jamescool/vagrants/public-records/sites/public-records-app/public/instantcheckmate.com/funnel"
+    ]
+  }
+  {
+    title: "generator-tcg"
+    paths: [
+      "/Users/jamescool/personal/yeoman-generators/generator-tcg"
+    ]
+  }
 ]
