@@ -67,6 +67,7 @@
       "vim-mode-plus"
       "vim-mode-plus-keymaps-for-surround"
       "language-javascript-jsx"
+      "language-blade"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
