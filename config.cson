@@ -25,7 +25,6 @@
       "wrap-guide"
       "language-todo"
       "language-vue"
-      "atom-beautify"
       "background-tips"
       "language-csharp"
       "language-java"
@@ -67,14 +66,13 @@
       "vim-mode-plus"
       "vim-mode-plus-keymaps-for-surround"
       "language-javascript-jsx"
-      "language-blade"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "gruvbox-plus-syntax"
     ]
     titleBar: "custom"
   "duotone-dark-syntax":
@@ -100,7 +98,8 @@
   "goto-definition":
     performanceMode: true
   "gruvbox-plus-syntax":
-    contrast: "Soft"
+    contrast: "Hard"
+    variant: "No Dimmed Colors"
   "language-babel":
     autoIndentJSX: true
   "linter-eslint":
