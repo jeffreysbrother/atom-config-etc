@@ -82,7 +82,7 @@
   editor:
     fontFamily: "Fira Code"
     invisibles: {}
-    lineHeight: 1.6
+    lineHeight: 1.7
     scrollPastEnd: true
     showIndentGuide: true
     softWrap: true
@@ -98,7 +98,7 @@
   "goto-definition":
     performanceMode: true
   "gruvbox-plus-syntax":
-    contrast: "Hard"
+    contrast: "Soft"
     variant: "No Dimmed Colors"
   "language-babel":
     autoIndentJSX: true
