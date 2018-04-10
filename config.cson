@@ -98,7 +98,6 @@
   "goto-definition":
     performanceMode: true
   "gruvbox-plus-syntax":
-    contrast: "Soft"
     variant: "No Dimmed Colors"
   "language-babel":
     autoIndentJSX: true
@@ -113,8 +112,7 @@
   "nord-atom-syntax":
     accessibility:
       commentContrast: 10
-  "one-dark-ui":
-    hideDockButtons: true
+  "one-dark-ui": {}
   "pinned-tabs":
     closeUnpinned: true
   "platformio-ide-terminal":
