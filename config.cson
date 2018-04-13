@@ -32,8 +32,6 @@
       "language-perl"
       "welcome"
       "language-gfm"
-      "autocomplete-css"
-      "autocomplete-html"
       "autoflow"
       "language-clojure"
       "language-make"
@@ -43,7 +41,6 @@
       "language-typescript"
       "github"
       "open-on-github"
-      "autocomplete-snippets"
       "archive-view"
       "autosave"
       "dev-live-reload"
@@ -97,8 +94,7 @@
     fontFamily: "SK Modernist"
   "goto-definition":
     performanceMode: true
-  "gruvbox-plus-syntax":
-    variant: "No Dimmed Colors"
+  "gruvbox-plus-syntax": {}
   "language-babel":
     autoIndentJSX: true
   "linter-eslint":
