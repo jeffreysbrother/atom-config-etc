@@ -69,7 +69,7 @@
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "gruvbox"
+      "base16-tomorrow-dark-theme"
     ]
     titleBar: "custom"
   "duotone-dark-syntax":
