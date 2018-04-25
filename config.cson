@@ -16,10 +16,9 @@
     strictMatching: true
     useCoreMovementCommands: false
   "base16-syntax":
-    scheme: "Yesterday Night"
+    scheme: "Tomorrow"
   "bracket-matcher": {}
   core:
-    automaticallyUpdate: false
     closeDeletedFileTabs: true
     disabledPackages: [
       "wrap-guide"
@@ -60,9 +59,9 @@
       "dalek"
       "language-babel"
       "relative-numbers"
+      "language-javascript-jsx"
       "vim-mode-plus"
       "vim-mode-plus-keymaps-for-surround"
-      "language-javascript-jsx"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/jamescool"
@@ -78,6 +77,7 @@
       uno: "#8c4f69"
   editor:
     fontFamily: "Fira Code"
+    fontSize: 15
     invisibles: {}
     lineHeight: 1.7
     scrollPastEnd: true
@@ -108,7 +108,8 @@
   "nord-atom-syntax":
     accessibility:
       commentContrast: 10
-  "one-dark-ui": {}
+  "one-dark-ui":
+    hideDockButtons: true
   "pinned-tabs":
     closeUnpinned: true
   "platformio-ide-terminal":
