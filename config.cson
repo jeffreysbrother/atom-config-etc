@@ -16,7 +16,7 @@
     strictMatching: true
     useCoreMovementCommands: false
   "base16-syntax":
-    scheme: "Tomorrow"
+    scheme: "Codeschool"
   "bracket-matcher": {}
   core:
     closeDeletedFileTabs: true
@@ -68,7 +68,7 @@
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "atom-material-syntax"
     ]
     titleBar: "custom"
   "duotone-dark-syntax":
