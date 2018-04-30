@@ -1,9 +1,3 @@
-// eliminate animations
-// * {
-//   transition: none !important;
-//   animation: none !important;
-// }
-
 atom-text-editor {
   text-rendering: optimizeLegibility;
 }
@@ -12,32 +6,6 @@ atom-text-editor.editor .syntax--string.syntax--quoted,
 atom-text-editor.editor .syntax--string.syntax--regexp {
   -webkit-font-feature-settings: "liga" off, "calt" off;
 }
-
-// make indent guide less vivid (only necessary for certain themes)
-atom-text-editor .indent-guide,
-atom-text-editor .indent-guide:nth-child(2n) {
-	// color: darken(#333, 2%);
-	// box-shadow: inset 1px 0 #2e2e2e;
-}
-
-// make comments less vivid (only necessary for certain themes)
-// also remove itallics (some letters hard to distinguish when itallic)
-.syntax--comment,
-.syntax--punctuation.syntax--definition.syntax--comment {
-	// color: #4e4e4e;
-	// color: darken(#928374, 15%);
-	// font-style: normal;
-}
-
-// highlight current line number for An Old Hope theme
-// atom-text-editor .gutter .line-number.cursor-line {
-// 	color: #e5cd52;
-// }
-
-// update color of folders in file directory for An Old Hope theme
-// .header > .icon-file-directory:before {
-// 	color: #4fb4d8;
-// }
 
 // make bookmarks more visible
 atom-text-editor .gutter .line-number.bookmarked .icon-right:before {
@@ -52,30 +20,14 @@ atom-text-editor .line-number .icon-right {
 //   color: lighten(#B54200, 20%);
 // }
 
-// force An Old Hope theme to make Less variables red (instead of white)
-// atom-text-editor .syntax--variable.syntax--other.syntax--less {
-// 	color: #eb3d54;
-// }
-
-// make close icons suitable for An Old Hope
-// .tab-bar .tab .close-icon:hover {
-// 	background-color: #4fb4d8;
-// }
-// .syntax--meta .syntax--entity.syntax--name.syntax--tags {
-// 	color: white;
-// }
-
-// make active tree-view more obvious
-// .tree-view::before {
-// 	width: 4px;
-// }
-
 // set border-bottom of active tab (files, settings, about page)
 // .texteditor.tab.active,
 // .tab.active[data-type="SettingsView"],
 // .tab.active[data-type="AboutView"] {
 //   border-bottom: 3px solid #928374;
 // }
+
+
 
 
 
@@ -156,11 +108,13 @@ atom-text-editor.editor .selection .region {
 
 
 
+
 /****************** GRUVBOX THEME MODS ******************/
 // .syntax--storage.syntax--type.syntax--function {
 // 	color: #fb4934;
 // }
 /****************** END GRUVBOX THEME MODS ******************/
+
 
 
 
@@ -177,7 +131,30 @@ atom-text-editor.editor .selection .region {
 // .syntax--keyword.syntax--operator.syntax--less {
 // 	color: #cbcdd2;
 // }
+// highlight current line number
+// atom-text-editor .gutter .line-number.cursor-line {
+// 	color: #e5cd52;
+// }
+
+// update color of folders in file directory
+// .header > .icon-file-directory:before {
+// 	color: #4fb4d8;
+// }
+
+// make Less variables red (instead of white)
+// atom-text-editor .syntax--variable.syntax--other.syntax--less {
+// 	color: #eb3d54;
+// }
+
+// close icon color
+// .tab-bar .tab .close-icon:hover {
+// 	background-color: #4fb4d8;
+// }
+// .syntax--meta .syntax--entity.syntax--name.syntax--tags {
+// 	color: white;
+// }
 /****************** END OLD HOPE THEME MODS ******************/
+
 
 
 
@@ -189,6 +166,26 @@ atom-text-editor.editor .selection .region {
 
 
 
-/****************** BASE 16 TOMORROW DARK THEME MODS ******************/
 
+/****************** BASE 16 TOMORROW DARK THEME MODS ******************/
+// make indent guide less vivid
+atom-text-editor .indent-guide,
+atom-text-editor .indent-guide:nth-child(2n) {
+	// color: darken(#333, 2%);
+	box-shadow: inset 1px 0 #2e2e2e;
+}
+
+// make comments less vivid
+.syntax--comment,
+.syntax--punctuation.syntax--definition.syntax--comment {
+	color: #4e4e4e;
+}
 /****************** END BASE 16 TOMORROW DARK THEME MODS ******************/
+
+
+
+
+
+/****************** ONE DARK THEME MODS ******************/
+
+/****************** END ONE DARK THEME MODS ******************/
