@@ -16,7 +16,7 @@
     strictMatching: true
     useCoreMovementCommands: false
   "base16-syntax":
-    scheme: "Codeschool"
+    scheme: "OceanicNext"
   "bracket-matcher": {}
   core:
     closeDeletedFileTabs: true
