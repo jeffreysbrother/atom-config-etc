@@ -104,6 +104,7 @@
     ieCompatibilityChecks: false
   "linter-ui-default":
     panelHeight: 69
+    showPanel: true
   "merge-conflicts":
     gitPath: "/usr/local/bin/git"
   "nord-atom-syntax":
@@ -115,6 +116,7 @@
     closeUnpinned: true
   "platformio-ide-terminal":
     style: {}
+  "pretty-json": {}
   "project-manager": {}
   "relative-numbers":
     softWrapsCount: false
