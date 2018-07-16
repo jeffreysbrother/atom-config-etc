@@ -5,6 +5,12 @@
       "/Users/jamescool/vagrants/public-records/sites/public-records-site-configs"
     ]
   }
+	{
+    title: "Public Records App"
+    paths: [
+      "/Users/jamescool/vagrants/public-records/sites/public-records-app"
+    ]
+  }
   {
     title: "TruthFinder Funnel"
     paths: [
